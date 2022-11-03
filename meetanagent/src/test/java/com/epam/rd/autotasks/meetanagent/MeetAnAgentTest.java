@@ -1,9 +1,11 @@
-package com.epam.rd.autotasks.meetanagent;
+package com.epam.training.student_veronika_tarasova.meetanagent.src.test.java.com.epam.rd.autotasks.meetanagent;
 
-import static com.epam.rd.autotasks.meetanagent.MeetAnAgent.PASSWORD;
+
+import static com.epam.training.student_veronika_tarasova.meetanagent.src.main.java.com.epam.rd.autotasks.meetanagent.MeetAnAgent.PASSWORD;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import com.epam.training.student_veronika_tarasova.meetanagent.src.main.java.com.epam.rd.autotasks.meetanagent.MeetAnAgent;
 import static com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemOut;
 import static com.github.stefanbirkner.systemlambda.SystemLambda.withTextFromSystemIn;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
